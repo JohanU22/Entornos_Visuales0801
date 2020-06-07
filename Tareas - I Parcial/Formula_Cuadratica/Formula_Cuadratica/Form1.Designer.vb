@@ -151,10 +151,12 @@ Partial Class Form1
         '
         'txtResultado2
         '
+        Me.txtResultado2.Enabled = False
         Me.txtResultado2.Location = New System.Drawing.Point(254, 52)
         Me.txtResultado2.Name = "txtResultado2"
         Me.txtResultado2.Size = New System.Drawing.Size(100, 20)
         Me.txtResultado2.TabIndex = 0
+        Me.txtResultado2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtA
         '
@@ -183,10 +185,12 @@ Partial Class Form1
         '
         'txtResultado1
         '
+        Me.txtResultado1.Enabled = False
         Me.txtResultado1.Location = New System.Drawing.Point(70, 52)
         Me.txtResultado1.Name = "txtResultado1"
         Me.txtResultado1.Size = New System.Drawing.Size(100, 20)
         Me.txtResultado1.TabIndex = 1
+        Me.txtResultado1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
