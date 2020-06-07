@@ -37,7 +37,7 @@
         valor_b = Val(txtB.Text)
         valor_c = Val(txtC.Text)
         Try
-            If Me.ValidateChildren And txtA.Text <> String.Empty And txtB.Text <> String.Empty And txtC.Text <> String.Empty And IsNumeric(txtA.Text) And IsNumeric(txtB.Text) And IsNumeric(txtC.Text) And txtA.Text <> 0 And txtC.Text <> 0 And txtC.Text <> 0 Then
+            If Me.ValidateChildren And txtA.Text <> String.Empty And txtB.Text <> String.Empty And txtC.Text <> String.Empty And IsNumeric(txtA.Text) And IsNumeric(txtB.Text) And IsNumeric(txtC.Text) And txtA.Text <> 0 And txtB.Text <> 0 And txtC.Text <> 0 Then
                 res = (-valor_b + (valor_b ^ 2 - (4 * valor_a * valor_c)) ^ 1 / 2) / (2 * valor_a)
                 res2 = (-valor_b - (valor_b ^ 2 - (4 * valor_a * valor_c)) ^ 1 / 2) / (2 * valor_a)
                 txtResultado1.Text = res
