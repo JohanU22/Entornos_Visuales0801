@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7916474-ECCA-4140-BA39-73906442330A}</ProjectGuid>
+    <ProjectGuid>{87E8773D-1345-4232-9E63-8E3858E1EBF0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Formula_Cuadratica.My.MyApplication</StartupObject>
-    <RootNamespace>Formula_Cuadratica</RootNamespace>
-    <AssemblyName>Formula_Cuadratica</AssemblyName>
+    <StartupObject>Registro_de_Almacenes.My.MyApplication</StartupObject>
+    <RootNamespace>Registro_de_Almacenes</RootNamespace>
+    <AssemblyName>Registro de Almacenes</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Formula_Cuadratica.xml</DocumentationFile>
+    <DocumentationFile>Registro de Almacenes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Formula_Cuadratica.xml</DocumentationFile>
+    <DocumentationFile>Registro de Almacenes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormulaCuadratica.vb">
+    <Compile Include="FormAlmacen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormulaCuadratica.Designer.vb">
-      <DependentUpon>FormulaCuadratica.vb</DependentUpon>
+    <Compile Include="FormAlmacen.Designer.vb">
+      <DependentUpon>FormAlmacen.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormulaCuadratica.resx">
-      <DependentUpon>FormulaCuadratica.vb</DependentUpon>
+    <EmbeddedResource Include="FormAlmacen.resx">
+      <DependentUpon>FormAlmacen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

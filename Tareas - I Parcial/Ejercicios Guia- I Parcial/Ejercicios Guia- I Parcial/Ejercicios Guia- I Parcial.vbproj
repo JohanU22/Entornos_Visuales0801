@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7916474-ECCA-4140-BA39-73906442330A}</ProjectGuid>
+    <ProjectGuid>{17FCB8BE-7641-4320-89D9-D06DA38CC9EC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Formula_Cuadratica.My.MyApplication</StartupObject>
-    <RootNamespace>Formula_Cuadratica</RootNamespace>
-    <AssemblyName>Formula_Cuadratica</AssemblyName>
+    <StartupObject>Ejercicios_Guia__I_Parcial.My.MyApplication</StartupObject>
+    <RootNamespace>Ejercicios_Guia__I_Parcial</RootNamespace>
+    <AssemblyName>Ejercicios Guia- I Parcial</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Formula_Cuadratica.xml</DocumentationFile>
+    <DocumentationFile>Ejercicios Guia- I Parcial.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Formula_Cuadratica.xml</DocumentationFile>
+    <DocumentationFile>Ejercicios Guia- I Parcial.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,11 +73,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormulaCuadratica.vb">
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlmacen.Designer.vb">
+      <DependentUpon>FormAlmacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlmacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculadora.Designer.vb">
+      <DependentUpon>FormCalculadora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculadora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEj4.Designer.vb">
+      <DependentUpon>FormEj4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEj4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEj5.Designer.vb">
+      <DependentUpon>FormEj5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEj5.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormulaCuadratica.Designer.vb">
       <DependentUpon>FormulaCuadratica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormulaCuadratica.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +127,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlmacen.resx">
+      <DependentUpon>FormAlmacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculadora.resx">
+      <DependentUpon>FormCalculadora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEj4.resx">
+      <DependentUpon>FormEj4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEj5.resx">
+      <DependentUpon>FormEj5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormulaCuadratica.resx">
       <DependentUpon>FormulaCuadratica.vb</DependentUpon>
     </EmbeddedResource>

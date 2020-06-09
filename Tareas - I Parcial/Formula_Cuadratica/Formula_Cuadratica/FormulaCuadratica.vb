@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class FormulaCuadratica
     Dim valor_a, valor_b, valor_c, res, res2 As Double
 
     Private Sub txtA_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtA.Validating
@@ -30,6 +30,18 @@
             Me.errorValidacion.SetError(sender, "Debe ingresar un valor numerico")
         End If
 
+    End Sub
+
+    Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+        txtA.Text = ""
+        txtB.Text = ""
+        txtC.Text = ""
+        txtResultado1.Text = ""
+        txtResultado2.Text = ""
+    End Sub
+
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        End
     End Sub
 
     Private Sub btnCalcular_Click(sender As Object, e As EventArgs) Handles btnCalcular.Click

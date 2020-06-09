@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class FormCalculadora
     Dim presiona_igual As Boolean
     Dim Capture_Operacion As String
     Dim Presionar_Operador As Boolean
@@ -159,5 +159,14 @@
 
     Private Sub ListView1_SelectedIndexChanged_1(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
 
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        FormPrincipal.Show()
     End Sub
 End Class
